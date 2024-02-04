@@ -5,7 +5,6 @@ require('dotenv').config()
 
 const secret = process.env.aes_secret; // Use the same secret key as the server
 const serverUrl = 'http://localhost:3000'; // Replace with your server URL
-console.log("secret - ", secret)
 
 // Dummy system information
 const systemInfo = {
